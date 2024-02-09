@@ -1,6 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/SnaQZIS-)
-
-## Double Deep Q Learning
+## 🚀️ LunarLander and CartPole - Double Deep Q Learning Algorithm
 
 <div align="center" style="max-width:68rem;">
 <table>
@@ -13,7 +11,7 @@
 </table>
 </div>
 
-## To run the models
+## 👩‍💻️ To run the models
 
 Installing all the dependencies (create a virtualenv to it):
 ```python
@@ -33,7 +31,7 @@ python3 LunarLander.py
 
 python3 CartPole.py
 ```
-## Description of the enviroment
+## 📌️ Description of the enviroment
 
 The enviroment consist of space ship trying to landing in the moon, between two flags.
 The action space consist of 4 actions:
@@ -47,7 +45,7 @@ The action space consist of 4 actions:
 
 The Observation Space consist of an 8-dimensional vector: the coordinates of the lander in x & y, its linear velocities in x & y, its angle, its angular velocity, and two booleans that represent whether each leg is in contact with the ground or not.
 
-## Learning curve
+## 📊️ Learning curve
 The model presents less oscilations that in the DeepQlearning implementation.
 
 
@@ -62,7 +60,7 @@ The model presents less oscilations that in the DeepQlearning implementation.
 <img src='results/CartPole_rewards_per_episode_best.jpg'/>
 </div>
 
-## Behavior of the agent
+## 🤖️ Behavior of the agent
 
 The agent performed better than in DDQN model than in DQN, mainly because it has segmented netowrks to take an action and evaluate the Q values.
 
